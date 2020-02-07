@@ -9,3 +9,4 @@
 > open browser " [ip adress]:[port#]/install/install.php "<br></br>
 > then " [ip adress]:[port#]/index.php " to launch<br></br>
 > (example: localhost:8080/install/install.php then localhost:8080/index.php)
+> to test admin pages... default admin account: kchen pw: kai
