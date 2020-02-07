@@ -1,0 +1,193 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh22200\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 @Printf\
+ %d // integer\
+%ld // large integer\
+%f // float (ex. 0.23434)\
+lf // large float\
+c // character\
+s // string (aka sentences)\
+x // hex\
+\
+@Comment\
+Multi line comment \
+/*insert\
+Comments\
+here\
+*/\
+Single line comment\
+//insert comments here\
+\
+@variable\
+Data type and name (ex. Int I)\
+Name can\'92t not start with number nor special characters\
+Also no space nor special characters with _ as exception\
+Also avoid use special function name\
+\
+basic 4 Data type (int, float, char, double)\
+\
+@If comment\
+If (/*condition*/)\
+	/*if condition true, this code execute*/\
+else if (another condition)\
+else\
+	(execute if no condition is true prior to this)\
+\
+@How to use ? :\
+\
+(Condition) ? (Return if condition is turn) : (return is condition is false);\
+\
+@How switch statement works\
+\
+Switch (expression)\
+\{\
+	case constant expression :\
+		statement(s);\
+		Break;\
+	case constant expression :\
+		statement(s);\
+		Break;\
+	default : //optional\
+		statement(s);\
+\
+@while loop\
+\
+While (condition is true)\
+	(execute until condition not true);\
+\
+@do while loop\
+\
+do\
+\{\
+	(execute until condition not true)\
+\} while (condition);\
+\
+Diff b/n do while and while\
+Do while at least excute once b/4 checking condition.\
+While check condition prior to execute\
+\
+@for loop\
+\
+For ( init; condition; increment )\
+\{\
+	statement(s);\
+\}\
+\
+EX,\
+for (int i=0 ; I  < 10 ; i++)\
+printf(\'93%d\'94, i)\
+Gives 0123456789\
+\
+@variable declare inside function = local variable, if it\'92s not inside any function = global variable\
+Global variable can be use in all function while local only use by the function it\'92s declared in.\
+When global variable have same name as local, local takes over\
+\
+@(datatype) (name) [number of augment] = \{x,y,\'85\'85\};\
+Ex.\
+Int	numaray [3] = \{10, 12, 6\};\
+Int	accaray = numaray[1];\
+Results in accaray = 12\
+\
+@muliti dimension array\
+Ex.\
+Int	numarray [2] [3] = \{\
+	\{1, 3, 6\},\
+	\{7, 9, 5\}\
+\};\
+in order to display mulit array it would take loop inside loop\
+ex.\
+for (int = i=0; I < 2; i++)\
+	for (int j=0; j <3; j++)\
+		printf(\'93numarray [%d] [%d] = %d \\n\'94, i, j, numarray[i] [j]);\
+\
+@pointer!!!\
+a aAress of another variable!!\
+Address is where the variable is stored\
+A address is hex\
+(%x, &variable) <access the address\
+(%d, *pointer) < access value inside the address\
+@array of pointers\
+same as pointer + loop\
+\
+@pass pointer as argument for function\
+ex.\
+Int funcNAME(int *array_val, int size)\
+\{\
+	int sum=0;\
+	for (int i=0; i<size; I++)\
+		sum += array_val\
+	return sum;\
+\}\
+Int main()\
+\{\
+	int aray[4] = \{6, 3, 7, 2\};\
+	int result = funcNAME(aray, 4);\
+	printf(\'93%d\'94, result);\
+\}\
+\
+Result = sum of 6+3+7+2 =18\
+\
+@strings\
+Strings is a single array of characters\
+ex.\
+Char string[6] = \{\'91h\'92, \'91e\'92, \'91l\'92, \'91l\'92, \'91o\'92, \'91\\0\'92); ~or~ char string[] = \'93hello\'94;\
+ \
+@structure in c!!!\
+ex.\
+struct NameOfStruct \{			struct		student \{\
+	int	attire1;				int	id;\
+	char	attire2;				char	name[];\
+	float	attire3;				float	percentage;\
+\};\
+\
+Int main()\
+\{\
+Struct	NameOfStruct variName;		Struct		student 	record1;\
+\
+variName.attire1 =  ;			record1.id =1;\
+						strcpy(record1.name, \'93John\'94);\
+						record1. Percentage = 70.20;\
+						\
+						printf(\'93id=%d name=%s percent=%f \\n\'94, record1.id, 						record1.name, record1.percentage);\
+ \}\
+						result:\
+						id=1 name=John percent=70.20\
+\
+\
+Ex2.\
+struct		student \{\
+	int	id;\
+	char	name[];\
+	float	percentage;\
+\} record;\
+\
+Int main()\
+\{\
+		record.id =1;\
+		strcpy(record.name, \'93John\'94);\
+		record. Percentage = 70.20;\
+						\
+		printf(\'93id=%d name=%s percent=%f \\n\'94, record.id, 						record.name, record.percentage);\
+\}\
+		result:\
+		id=1 name=John percent=70.20\
+\
+@union\
+code similar to struct pretty much replace struct with union\
+The diff. B/n union and struct is\
+Struct assign diff memory to it\'92s variable\
+For example, two variable one is 4 byte, one is 1 byte there will be total of 8 byte\
+\pard\tx360\tx643\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Why is it 8 not 5. Cause 5 is not multiple of 4. As the total will be the multiple of initial value. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 While union assign the max of it\'92s variable \
+As tow variable one is 4 byte, one is 1 byte there will be 4 byte of memory assigned.\
+\
+\
+\
+Side note> (x + 1)/ (x++) / ( x += 1) all three do the same}
