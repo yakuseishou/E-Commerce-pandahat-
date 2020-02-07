@@ -6,6 +6,6 @@
 > # hosting locally
 > input: " php -S [ip address]:[port#] " at root folder of the project<br></br>
 > (example: php -S localhost:8080)<br></br>
-> open browser [ip adress]:port#/install/install.php <br></br>
-> then [ip adress]:port#/index.php to launch<br></br>
+> open browser " [ip adress]:[port#]/install/install.php "<br></br>
+> then " [ip adress]:[port#]/index.php " to launch<br></br>
 > (example: localhost:8080/install/install.php then localhost:8080/index.php)
