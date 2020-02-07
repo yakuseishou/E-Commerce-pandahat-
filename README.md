@@ -4,7 +4,8 @@
  To create an e-commerce digital platform (demo using PandaHat anime apparel) within 48 hours
 
 > # hosting locally
-> input: " php -S [ip address]:[port#] " at root folder of the project
+> input: " php -S [ip address]:[port#] " at root folder of the project<br></br>
 > (example: php -S localhost:8080)<br></br>
-> then open browser [ip adress]:port#/index.php to launch
-> (example: localhost:8080/index.php)
+> open browser [ip adress]:port#/install/install.php <br></br>
+> then [ip adress]:port#/index.php to launch<br></br>
+> (example: localhost:8080/install/install.php then localhost:8080/index.php)
