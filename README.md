@@ -10,3 +10,6 @@
 > then " [ip adress]:[port#]/index.php " to launch<br></br>
 > (example: localhost:8080/install/install.php then localhost:8080/index.php)<br></br>
 > to test admin pages... default admin account: kchen pw: kai
+
+# Homepage:
+<img src="https://github.com/yakuseishou/E-Commerce-pandahat-/blob/master/ecom-web-screenshot/homepage.png" alt="title page" width="50%" height="40%" style="float: inline-end; margin-left: 10%;"/><br></br>
