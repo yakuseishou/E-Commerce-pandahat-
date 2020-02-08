@@ -27,5 +27,5 @@
 
 # AdminPage:
 > only accessable if an admin account is logged in <br></br>
-> to test: default admin account: kchen / pw: kai
+> to test: default admin account: kchen / pw: kai <br></br>
 <img src="https://github.com/yakuseishou/E-Commerce-pandahat-/blob/master/ecom-web-screenshot/adminAccountPage.png" alt="title page" width="50%" height="40%" style="float: inline-end; margin-left: 10%;"/><br></br>
