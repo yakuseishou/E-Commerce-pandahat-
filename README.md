@@ -1,3 +1,6 @@
+Currently recreating the site with MERN stack
+https://github.com/yakuseishou/Remake-PandaHat
+
 # E-Commerce-pandahat-
  42 E-commerce website project: <br></br>
  Collaborate with another student (Christopher Ford - https://github.com/Chris7Ford)<br></br>
